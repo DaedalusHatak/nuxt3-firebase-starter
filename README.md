@@ -1,6 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Minimal Starter with Firebase
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look also at [Firebase Documentation](https://firebase.google.com/docs)
+
+This is simple starter for Nuxt3 with Firebase. 
+
+Routes can be guarded, logging in and out implemented, revoking session on logout available.
+
+Easily start your project without need of writing repeatable code for guarding routes and configuring firebase.
 
 ## Setup
 
@@ -15,6 +22,8 @@ npm install
 
 # pnpm
 pnpm install
+
+edit .env.example to .env with your keys
 ```
 
 ## Development Server
