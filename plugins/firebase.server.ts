@@ -14,7 +14,7 @@ export default defineNuxtPlugin(async (nuxtApp) => {
     // @ts-ignore
 
     if (token.value) {
-      const dupa = auth.verifySessionCookie(token.value, true);
+      const verify = auth.verifySessionCookie(token.value, true);
     } else {
     }
   }

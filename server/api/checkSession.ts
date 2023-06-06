@@ -2,10 +2,10 @@ import { getAuth } from "firebase-admin/auth";
 
 export default defineEventHandler(async (event) => {
   const { sessionCookie } = await readBody(event);
-  let papa;
+
   let res = false;
   if (sessionCookie) {
-    papa = await getAuth()
+    await getAuth()
       .verifySessionCookie(sessionCookie, true)
       .then((response) => {
         return (res = true);
